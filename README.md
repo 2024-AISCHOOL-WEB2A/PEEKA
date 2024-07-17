@@ -14,7 +14,8 @@
 12.트러블슈팅
 
 # 📎 peeka(팀명: peeka)
-![image](https://user-images.githubusercontent.com/25995055/178401309-2a2ffc86-ef45-439b-bfd8-6978312100bc.png)
+![image](https://github.com/user-attachments/assets/836808dd-a2c3-4ac3-94c5-605ed390c7c9)
+
 
 
 ## 👀 서비스 소개
