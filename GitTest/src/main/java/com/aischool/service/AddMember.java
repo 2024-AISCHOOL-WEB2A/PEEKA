@@ -9,8 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.aischool.model.MemberDAO;
 import com.aischool.model.WebMember;
-import com.aischool.model.WebMemberDAO;
+
 
 /**
  * Servlet implementation class AddMember
@@ -48,7 +49,7 @@ public class AddMember extends HttpServlet {
 	      
 	      WebMember member = new WebMember(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, lastlogin, role );
 	      
-	      WebMemberDAO dao = new WebMemberDAO();
+	      MemberDAO dao = new MemberDAO();
 	      
 	      //SQL 성공 -> 1
 	      //SQL 실패 -> 0

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 // 1. Connection객체
 // 2. PreparedStatement객체
 // 3. ResultSet객체
-public class WebMemberDAO {
+public class MemberDAO {
 
    private Connection conn;
    private PreparedStatement pst;
@@ -77,7 +77,7 @@ public class WebMemberDAO {
       connect();
       int cnt = 0;
       // 2. 데이터를 저장하는 SQL문 생성 & SQL실행
-      String sql = "insert into WEB_MEMBER values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+      String sql = "insert into MEMBER_TB values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
       try {
          pst = conn.prepareStatement(sql);
 
@@ -149,7 +149,7 @@ public class WebMemberDAO {
 			
 			mem = new WebMember(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, lastlogin, role );
 			
-			
+		// 얼굴 인식 으로 보내야함 ++	
 			
 			
 		}
@@ -291,7 +291,7 @@ public int memberDelete(String email) {
 	
 	
 	try {
-		String sql = "DELETE FROM WEB_MEMBER WHERE EMAIL=?";
+		String sql = "DELETE FROM MEMBER_TB WHERE EMAIL=?";
 		pst = conn.prepareStatement(sql);
 		pst.setString(1, email);
 		
