@@ -72,48 +72,53 @@ public class MemberDAO {
 
    // 회원가입 기능
    public int memberJoin(WebMember member) {
-	   
-      // 1. DB연결
-      connect();
-      int cnt = 0;
-      // 2. 데이터를 저장하는 SQL문 생성 & SQL실행
-      String sql = "insert into MEMBER_TB values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-      try {
-         pst = conn.prepareStatement(sql);
+	    // 1. DB연결
+	    connect();
+	    int cnt = 0;
 
-         pst.setString(1, member.getEmpid());
-         pst.setString(2, member.getPw());
-         pst.setString(3, member.getName());
-         pst.setString(4, member.getEmail());
-         pst.setString(5, member.getBirthday());
-         pst.setString(6, member.getHiredate());
-         pst.setString(7, member.getPhone());
-         pst.setString(8, member.getInlinenum());
-         pst.setString(9, member.getDeptidx());
-         pst.setString(10, member.getPosition());
-         pst.setString(11, member.getJoindate());
-         pst.setString(12, member.getLastlogin());
-         pst.setString(13, member.getRole());
-         
-         
-         // insert, update, delete, SQL문을 실행할 때 사용하는 메소드
-         // select SQL문을 실행할 때 -> executeQuery()
-         cnt = pst.executeUpdate();
+	    try {
+	        // Empid 중복 체크
+	        String checkSql = "SELECT COUNT(*) FROM MEMBER_TB WHERE empid = ?";
+	        pst = conn.prepareStatement(checkSql);
+	        pst.setString(1, member.getEmpid());
+	        ResultSet rs = pst.executeQuery();
+	        
+	        if (rs.next() && rs.getInt(1) > 0) {
+	            // Empid가 이미 존재하면 -1 반환
+	            return -1;
+	        }
 
-      
+	        // 2. 데이터를 저장하는 SQL문 생성 & SQL실행
+	        String sql = "INSERT INTO MEMBER_TB VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+	        pst = conn.prepareStatement(sql);
 
-      // 3. SQL실행 결과처리
-      } catch (SQLException e) {
-          e.printStackTrace();
-       } finally {
-    	   // 4. DB연결종료
-    	      close();
-       }
-      
-      
-      return cnt;
-     
-   }
+	        pst.setString(1, member.getEmpid());
+	        pst.setString(2, member.getPw());
+	        pst.setString(3, member.getName());
+	        pst.setString(4, member.getEmail());
+	        pst.setString(5, member.getBirthday());
+	        pst.setString(6, member.getHiredate());
+	        pst.setString(7, member.getPhone());
+	        pst.setString(8, member.getInlinenum());
+	        pst.setString(9, member.getDeptidx());
+	        pst.setString(10, member.getPosition());
+	        pst.setString(11, member.getJoindate());
+	        pst.setString(12, member.getLastlogin());
+	        pst.setString(13, member.getRole());
+
+	        // insert, update, delete SQL문을 실행할 때 사용하는 메소드
+	        cnt = pst.executeUpdate();
+
+	        // 3. SQL실행 결과처리
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	    } finally {
+	        // 4. DB연결종료
+	        close();
+	    }
+
+	    return cnt;
+	}
    
    //로그인 서비스
    public WebMember memberLogin(WebMember member) {
