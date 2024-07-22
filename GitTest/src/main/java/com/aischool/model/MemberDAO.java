@@ -28,11 +28,11 @@ public class MemberDAO {
          // 2. Connection객체 생성(DB연결)
          // - url, user, password 필요
 
-         String url = "jdbc:oracle:thin:@localhost:1524:xe";
-         String user = "Insa5_SpringA_hacksim_1";
-         String password = "aishcool1";
+         String url = "jdbc:oracle:thin:@project-db-stu3.smhrd.com:1524:xe";
+         String id = "Insa5_SpringA_hacksim_1";
+         String pw = "aishcool1";
 
-         conn = DriverManager.getConnection(url, user, password);
+         conn = DriverManager.getConnection(url, id, pw);
 
          if (conn != null) {
             System.out.println("Connection 성공");
