@@ -170,7 +170,8 @@ public class MemberDAO {
 		    updatePst.setString(2, empid);
 		    updatePst.executeUpdate();
 		    updatePst.close();
-		// 얼굴 인식 으로 보내야함 ++	
+		    
+		    // 얼굴 인식 으로 보내야함 ++	
 			
 			
 		}
