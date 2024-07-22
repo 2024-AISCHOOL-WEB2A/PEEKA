@@ -1,0 +1,73 @@
+/* screen - login-u95admin-1 */
+
+.login-u95admin-1 {
+  background-color: var(--white100);
+  height: 1024px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.login-u95admin-1 .main-bg-iK9rQE {
+  background-color: var(--blueberry);
+  height: 1026px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1442px;
+}
+
+.login-u95admin-1 .input-iK9rQE {
+  background-color: transparent;
+  height: 704px;
+  left: 405px;
+  position: absolute;
+  top: 160px;
+  width: 630px;
+}
+
+.login-u95admin-1 .bg-paIat1 {
+  background-color: var(--white100);
+  border: 0.30000001192092896px solid;
+  border-color: var(--pink-swan);
+  border-radius: 24px;
+  height: 704px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 630px;
+}
+
+.login-u95admin-1 .stop-01-paIat1 {
+  background-color: transparent;
+  height: 601px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 630px;
+}
+
+.login-u95admin-1 .image-avatar-iK9rQE {
+  background-color: transparent;
+  height: 536px;
+  left: 440px;
+  position: absolute;
+  top: 192px;
+  width: 560px;
+}
+
+.login-u95admin-1 .x-iK9rQE {
+  background-color: transparent;
+  color: var(--wwwsinbuyacomblack);
+  font-style: normal;
+  font-weight: 600;
+  height: 21px;
+  left: 539px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 711px;
+  white-space: nowrap;
+  width: 363px;
+}

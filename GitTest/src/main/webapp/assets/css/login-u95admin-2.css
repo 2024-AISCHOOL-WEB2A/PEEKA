@@ -1,0 +1,83 @@
+/* screen - login-u95admin-2 */
+
+.login-u95admin-2 {
+  background-color: var(--white100);
+  height: 1024px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.login-u95admin-2 .main-bg-fZUPM4 {
+  background-color: var(--blueberry);
+  height: 1026px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1442px;
+}
+
+.login-u95admin-2 .input-fZUPM4 {
+  background-color: transparent;
+  height: 704px;
+  left: 405px;
+  position: absolute;
+  top: 160px;
+  width: 630px;
+}
+
+.login-u95admin-2 .bg-UhtWVT {
+  background-color: var(--white100);
+  border: 0.30000001192092896px solid;
+  border-color: var(--pink-swan);
+  border-radius: 24px;
+  height: 704px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 630px;
+}
+
+.login-u95admin-2 .icon-UhtWVT {
+  height: 453px;
+  left: 78px;
+  top: 75px;
+  width: 474px;
+}
+
+.login-u95admin-2 .icon-CKKnWC {
+  height: 410px;
+  left: 101px;
+  top: 96px;
+  width: 428px;
+}
+
+.login-u95admin-2 .x-fZUPM4 {
+  left: 539px;
+  top: 711px;
+  width: 363px;
+}
+
+.login-u95admin-2 .x-gcqj6K {
+  color: var(--wwwsinbuyacomblack);
+  font-style: normal;
+  font-weight: 600;
+  left: 105px;
+  line-height: 22px;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.login-u95admin-2 .icon {
+  background-color: transparent;
+  position: absolute;
+}
+
+.login-u95admin-2 .x {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+}

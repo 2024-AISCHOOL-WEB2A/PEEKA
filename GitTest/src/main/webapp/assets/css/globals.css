@@ -1,0 +1,347 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:900,400,600,300,500,700|Nunito+Sans:700,600,800|Inter:600");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/668bb8f0490c8a68f4b4785a.668bb8f1490c8a68f4b4785d.BpC7ZkC.hcp.png");
+
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.attendance {
+  background-color: transparent;
+  position: absolute;
+}
+
+.bottom_bar {
+  height: 11px;
+  left: 0px;
+  width: 1440px;
+}
+
+.calendar-1 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.check-box {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  width: 28px;
+}
+
+.inbox-02 {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  width: 20px;
+}
+
+.line {
+  background-color: transparent;
+  height: 2px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  width: 224px;
+}
+
+.plus-03 {
+  background-color: transparent;
+  height: 20px;
+  left: 204px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+}
+
+.products {
+  background-color: transparent;
+  position: absolute;
+}
+
+.profile {
+  background-color: transparent;
+  position: absolute;
+}
+
+.project-1 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.rectangle-106 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 60px;
+}
+
+.rectangle-107 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 60px;
+  position: absolute;
+  top: 1px;
+  width: 187px;
+}
+
+.rectangle-108 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 247px;
+  position: absolute;
+  top: 1px;
+  width: 144px;
+}
+
+.rectangle-109 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 391px;
+  position: absolute;
+  top: 1px;
+  width: 144px;
+}
+
+.rectangle-110 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 535px;
+  position: absolute;
+  top: 1px;
+  width: 144px;
+}
+
+.rectangle-111 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 678px;
+  position: absolute;
+  top: 1px;
+  width: 144px;
+}
+
+.rectangle-112 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 822px;
+  position: absolute;
+  top: 1px;
+  width: 144px;
+}
+
+.rectangle-113 {
+  border: 0.30000001192092896px solid;
+  height: 41px;
+  left: 965px;
+  position: absolute;
+  top: 1px;
+  width: 97px;
+}
+
+.rectangle-123 {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 25px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 68px;
+}
+
+.rectangle-48 {
+  height: 21px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 224px;
+}
+
+.setting {
+  background-color: transparent;
+  position: absolute;
+}
+
+.sign_out {
+  background-color: transparent;
+  position: absolute;
+}
+
+.tag_b {
+  background-color: transparent;
+  height: 345px;
+  position: absolute;
+  top: 72px;
+}
+
+.users-profiles-check {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  width: 20px;
+}
+
+.vector-28 {
+  background-color: transparent;
+  left: 5px;
+  position: absolute;
+  width: 5px;
+}
+
+.vector-29 {
+  background-color: transparent;
+  height: 7px;
+  left: 3px;
+  position: absolute;
+  top: 6px;
+  width: 9px;
+}
+
+.vector-30 {
+  background-color: transparent;
+  height: 4px;
+  left: 11px;
+  position: absolute;
+  top: 2px;
+}
+
+.vector-31 {
+  background-color: transparent;
+  height: 4px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+}
+
+.vector-32 {
+  background-color: transparent;
+  position: absolute;
+  top: 7px;
+  width: 17px;
+}
+
+.vector-42 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.vector-8 {
+  background-color: transparent;
+  left: -0px;
+  position: absolute;
+  width: 15px;
+}
+
+.vector-9 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.xnix-line-users {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  width: 20px;
+}
+
+.vector-10 {
+  background-color: transparent;
+  height: 16px;
+  left: -0px;
+  position: absolute;
+  top: -0px;
+  width: 17px;
+}
+
+.vector-41 {
+  background-color: transparent;
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  top: 6px;
+  width: 5px;
+}
+
+.vector-7 {
+  background-color: transparent;
+  height: 6px;
+  left: -0px;
+  position: absolute;
+  top: -0px;
+  width: 15px;
+}
+
+.message-1 {
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  top: 295px;
+}
+
+.messanger {
+  background-color: transparent;
+  height: 26px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.notification-box {
+  background-color: transparent;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  width: 20px;
+}

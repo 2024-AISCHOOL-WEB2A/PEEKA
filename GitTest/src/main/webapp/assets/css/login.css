@@ -1,0 +1,273 @@
+/* screen - login */
+
+.login {
+  background-color: var(--white100);
+  height: 1024px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.login .main-bg-b8DrbD {
+  background-color: var(--blueberry);
+  height: 1026px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1442px;
+}
+
+.login .input-b8DrbD {
+  background-color: transparent;
+  height: 704px;
+  left: 405px;
+  position: absolute;
+  top: 160px;
+  width: 632px;
+}
+
+.login .bg-XM0oSg {
+  background-color: var(--white100);
+  border: 0.30000001192092896px solid;
+  border-color: var(--pink-swan);
+  border-radius: 24px;
+  height: 704px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 630px;
+}
+
+.login .details-XM0oSg {
+  background-color: transparent;
+  height: 107px;
+  left: 106px;
+  position: absolute;
+  top: 523px;
+  width: 418px;
+}
+
+.login .create-new-BUEmT7 {
+  background-color: transparent;
+  height: 25px;
+  left: 74px;
+  position: absolute;
+  top: 82px;
+  width: 299px;
+}
+
+.login .dont-have-an-accoun-RQRTzx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0.65;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  width: 145px;
+}
+
+.login .create-account-RQRTzx {
+  background-color: transparent;
+  color: #5a8cff;
+  font-family: var(--font-family-nunito_sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 167px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  text-decoration: underline;
+  top: 0px;
+  width: 128px;
+}
+
+.login .button-compose-message-BUEmT7 {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 420px;
+}
+
+.login .rectangle-fJJxxS {
+  background-color: var(--blueberry);
+  border-radius: 8px;
+  height: 56px;
+  left: -1px;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  position: absolute;
+  top: -1px;
+  width: 420px;
+}
+
+.login .sign-in-fJJxxS {
+  background-color: transparent;
+  color: var(--white100);
+  font-family: var(--font-family-nunito_sans);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 177px;
+  letter-spacing: -0.07px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 64px;
+}
+
+.login .bright-web-XM0oSg {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-nunito_sans);
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  height: auto;
+  left: 192px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 59px;
+  width: 247px;
+}
+
+.login .span0-kTRDZR {
+  color: var(--blueberry);
+  font-style: normal;
+}
+
+.login .span1-kTRDZR {
+  color: var(--screamin-green);
+  font-style: normal;
+}
+
+.login .email-b8DrbD {
+  background-color: transparent;
+  height: 96px;
+  left: 462px;
+  position: absolute;
+  top: 395px;
+  width: 516px;
+}
+
+.login .input-qJ60S1 {
+  background-color: #f1f4f9;
+  border: 1px solid;
+  border-color: #d7d7d7;
+  border-radius: 8px;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 40px;
+  width: 516px;
+}
+
+.login .email-address-qJ60S1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  width: auto;
+}
+
+.login .esteban_schillergma-qJ60S1 {
+  background-color: transparent;
+  color: var(--quick-silver);
+  font-family: var(--font-family-nunito_sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 16px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 55px;
+  width: auto;
+}
+
+.login .password-b8DrbD {
+  height: 145px;
+  left: 462px;
+  top: 508px;
+  width: 516px;
+}
+
+.login .input-8Fx8xU {
+  background-color: #f1f4f9;
+  border: 1px solid;
+  border-color: #d7d7d7;
+  border-radius: 8px;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 40px;
+  width: 516px;
+}
+
+.login .password-8Fx8xU {
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  text-align: left;
+  top: -1px;
+  width: auto;
+}
+
+.login .password-swcFxC {
+  height: 14px;
+  left: 16px;
+  top: 61px;
+  width: 164px;
+}
+
+.login .remember-password-8Fx8xU {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: -0.06px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 119px;
+  width: auto;
+}
+
+.login .check-8Fx8xU {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 120px;
+  width: 24px;
+}
+
+.login .password {
+  background-color: transparent;
+  position: absolute;
+}
