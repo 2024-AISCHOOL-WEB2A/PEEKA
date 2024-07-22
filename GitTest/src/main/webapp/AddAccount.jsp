@@ -569,7 +569,7 @@
             <div class="text_label-BXy33O text_label roboto-light-white-14px">계정 추가</div>
           </div></a
         >
-        <form action="noticeboardu951.jsp" method="post">
+        <form action="Account.jsp" method="post">
     <div class="rectangle-177-3RxHCj"></div>
     <div class="add-acount-3RxHCj">
         <div class="rectangle-164-pSOGuD"></div>
@@ -635,7 +635,7 @@
             <input type="submit" class="button" value="등록">
         </div>
         <div class="group-105-pSOGuD">
-            <input type="button" class="button" value="취소" onclick="location.href='noticeboardu951.jsp'">
+            <input type="button" class="button" value="취소" onclick="location.href='Account.jsp'">
         </div>
     </div>
 </form>
