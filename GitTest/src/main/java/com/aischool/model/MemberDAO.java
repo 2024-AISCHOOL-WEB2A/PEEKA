@@ -129,7 +129,7 @@ public class MemberDAO {
 	  
 	   
 	   try {
-		String sql = "select * from web_member where email=? and pw=?";
+		String sql = "select * from MEMBER_TB where email=? and pw=?";
 		pst = conn.prepareStatement(sql);
 		pst.setString(1, member.getEmail());
 		pst.setString(2, member.getPw());
@@ -215,7 +215,7 @@ public class MemberDAO {
 	   
 	   try {
 		   while(true) {
-			   String sql = "SELECT EMAIL, TEL, ADDRESS FROM WEB_MEMBER";
+			   String sql = "SELECT EMAIL, TEL, ADDRESS FROM MEMBER_TB";
 				pst = conn.prepareStatement(sql);
 				
 				
