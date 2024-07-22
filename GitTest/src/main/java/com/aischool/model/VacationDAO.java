@@ -5,13 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 
-// DAO(Data Access Object)
-// 데이터베이스 관련 기능을 관리하는 객체
-// 1. Connection객체
-// 2. PreparedStatement객체
-// 3. ResultSet객체
+
 public class VacationDAO {
 
    private Connection conn;
@@ -22,11 +17,9 @@ public class VacationDAO {
    public void connect() {
 
       try {
-         // 1. OracleDriver 동적 로딩
+         
          Class.forName("oracle.jdbc.driver.OracleDriver");
 
-         // 2. Connection객체 생성(DB연결)
-         // - url, user, password 필요
 
          String url = "jdbc:oracle:thin:@project-db-stu3.smhrd.com:1524:xe";
          String id = "Insa5_SpringA_hacksim_1";
@@ -73,41 +66,34 @@ public class VacationDAO {
    
    
    
-   // 1. 휴가 신청
-   public WebMember memberLogin(WebMember member) {
-	   WebMember mem = null;
+   // 1. 휴가 신청자
+   public VacationTB EmpOffday (VacationTB Userempid) {
+	   VacationTB offday = null;
 	   
 	   connect();
 	   
 	  
 	   
 	   try {
-		String sql = "select * from MEMBER_TB where EMPID=? and PW=?";
+		String sql = "select * from VACATION_TB A left join MEMBER_TB B A.USER EMPID = B.USER EMPID where EMPID=?";
 		pst = conn.prepareStatement(sql);
-		pst.setString(1, member.getEmpid());
-		pst.setString(2, member.getPw());
+		pst.setString(1, Userempid.getEmpid());
+		
 		
 		rs = pst.executeQuery();
 		
-		if(rs.next()) { // 조회된 정보가 있는 상태
+		if(rs.next()) { 
 			
+			int idx = rs.getInt("idx");	// 휴가 일수
 			String empid = rs.getString(1);
-			String pw = rs.getString(2);
-			String name = rs.getString("name");
-			String email = rs.getString("email");
-			String birthday = rs.getString("birthday");
-			String hiredate = rs.getString("hiredate");
-			String phone = rs.getString("phone");
-			String inlinenum = rs.getString("inlinenum");
-			String deptidx = rs.getString("deptidx");
-			String position = rs.getString("position");
-			String joindate = rs.getString("joindate");
-			String lastlogin = rs.getString("lastlogin");
-			String role = rs.getString("role");
+			String year = rs.getString("year");
+			Double Yoffday = rs.getDouble("yYoffday");
+			Double Moffday = rs.getDouble("mMoffday");
 			
-			mem = new WebMember(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, lastlogin, role );
 			
-		// 얼굴 인식 으로 보내야함 ++	
+			offday = new VacationTB(idx, empid, year, Yoffday, Moffday);
+		
+		// 얼굴 인식 으로 보내야함 ++	s
 			
 			
 		}
@@ -122,7 +108,7 @@ public class VacationDAO {
 	   }
 	   
 	   
-	   return mem;
+	   return offday;
    } 
    
    
