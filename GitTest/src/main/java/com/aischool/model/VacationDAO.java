@@ -75,7 +75,7 @@ public class VacationDAO {
 	  
 	   
 	   try {
-		String sql = "select * from VACATION_TB A left join MEMBER_TB B A.USER EMPID = B.USER EMPID where EMPID=?";
+		String sql = "select * from VACATION_TB A left join MEMBER_TB B on A.USER EMPID = B.USER EMPID where EMPID=?";
 		pst = conn.prepareStatement(sql);
 		pst.setString(1, Userempid.getEmpid());
 		
