@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 // DAO(Data Access Object)
@@ -89,7 +91,7 @@ public class MemberDAO {
 	        }
 
 	        // 2. 데이터를 저장하는 SQL문 생성 & SQL실행
-	        String sql = "INSERT INTO MEMBER_TB VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+	        String sql = "INSERT INTO MEMBER_TB(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, role) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 	        pst = conn.prepareStatement(sql);
 
 	        pst.setString(1, member.getEmpid());
@@ -103,8 +105,7 @@ public class MemberDAO {
 	        pst.setString(9, member.getDeptidx());
 	        pst.setString(10, member.getPosition());
 	        pst.setString(11, member.getJoindate());
-	        pst.setString(12, member.getLastlogin());
-	        pst.setString(13, member.getRole());
+	        pst.setString(12, member.getRole());
 
 	        // insert, update, delete SQL문을 실행할 때 사용하는 메소드
 	        cnt = pst.executeUpdate();
@@ -152,8 +153,23 @@ public class MemberDAO {
 			String lastlogin = rs.getString("lastlogin");
 			String role = rs.getString("role");
 			
-			mem = new WebMember(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, lastlogin, role );
-			
+			mem = new WebMember(empid, pw, name, email, birthday, hiredate, phone, inlinenum, deptidx, position, joindate, lastlogin, role);
+
+		    // 현재 시간을 가져옵니다
+		    LocalDateTime currentTime = LocalDateTime.now();
+		    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+		    String formattedDateTime = currentTime.format(formatter);
+
+		    // 로그인 시간을 출력합니다
+		    System.out.println("로그인 시간: " + formattedDateTime);
+
+		    // 데이터베이스에 마지막 로그인 시간을 업데이트합니다
+		    String updateSql = "UPDATE MEMBER_TB SET LASTLOGIN = ? WHERE EMPID = ?";
+		    PreparedStatement updatePst = conn.prepareStatement(updateSql);
+		    updatePst.setString(1, formattedDateTime);
+		    updatePst.setString(2, empid);
+		    updatePst.executeUpdate();
+		    updatePst.close();
 		// 얼굴 인식 으로 보내야함 ++	
 			
 			
