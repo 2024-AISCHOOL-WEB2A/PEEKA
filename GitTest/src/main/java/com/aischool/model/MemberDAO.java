@@ -129,9 +129,9 @@ public class MemberDAO {
 	  
 	   
 	   try {
-		String sql = "select * from MEMBER_TB where email=? and pw=?";
+		String sql = "select * from MEMBER_TB where EMPID=? and PW=?";
 		pst = conn.prepareStatement(sql);
-		pst.setString(1, member.getEmail());
+		pst.setString(1, member.getEmpid());
 		pst.setString(2, member.getPw());
 		
 		rs = pst.executeQuery();
@@ -288,7 +288,7 @@ public class MemberDAO {
 //	   return list;
 //   }
 
-public int memberDelete(String email) {
+public int memberDelete(String empid) {
 	int cnt = 0;
 	
 	connect();
@@ -298,7 +298,7 @@ public int memberDelete(String email) {
 	try {
 		String sql = "DELETE FROM MEMBER_TB WHERE EMAIL=?";
 		pst = conn.prepareStatement(sql);
-		pst.setString(1, email);
+		pst.setString(1, empid);
 		
 		cnt = pst.executeUpdate();
 		
