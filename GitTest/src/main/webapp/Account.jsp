@@ -567,7 +567,7 @@
         <div class="bottom_bar-D3A99X bottom_bar">
           <div class="bottom_bar-Asg6z2 bottom_bar"></div>
         </div>
-        <a href="noticeboardu952.html">
+        <a href="AddAccount.jsp">
           <div class="account-update-D3A99X account-update">
             <div class="rectangle-123"></div>
             <div class="text_label-uYMxgZ text_label roboto-light-white-14px">계정 추가</div>
