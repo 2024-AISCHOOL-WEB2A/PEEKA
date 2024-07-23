@@ -136,14 +136,24 @@
                 })
                     .then(response => response.json())
                     .then(data => {
-                        if (data.redirect) {
-                            window.location.href = data.redirect;
-                        } else {
-                            console.error('Redirect URL not provided');
+                        statusElement.textContent = data.message;
+                        if (data.message.includes("얼굴이 감지되었습니다")) {
+                            lastCaptureTime = Date.now(); // 캡처 시간 갱신
+                            showAlertAndClose("얼굴 인식이 완료되었습니다!");
+                        }
+                        if (data.filename_full) {
+                            fullImage.src = '/static/upload/' + data.filename_full;
+                            fullImage.style.display = 'block';
+                        }
+                        if (data.filename_face) {
+                            croppedImage.src = '/static/upload/' + data.filename_face;
+                            croppedImage.style.display = 'block';
+                            showAlert("얼굴 이미지가 저장되었습니다.");
                         }
                     })
                     .catch(error => {
                         console.error('Error:', error);
+                        statusElement.textContent = "서버 통신 오류";
                     });
             }, 'image/jpeg');
         }
