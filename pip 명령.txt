@@ -1,0 +1,1 @@
+pip install Flask opencv-python mediapipe numpy scikit-learn imbalanced-learn tensorflow Pillow matplotlib seaborn boto3 cx_Oracle dlib flask_cors
