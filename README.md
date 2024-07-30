@@ -29,11 +29,8 @@
 <br>
 
 ## ⭐ 주요 기능
-* 기능1
-* 기능2
-* 기능3
-* 기능4
-* 기능5
+* 보안 강화를 위한 얼굴인증 업무 프로세스 시스템 
+
 <br>
 
 ## ⛏ 기술스택
@@ -60,6 +57,7 @@
     <tr>
         <td>개발도구</td>
         <td>
+            <img src="https://img.shields.io/badge/Figma=Figma&logoColor=Black"/>
             <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
         </td>
@@ -133,12 +131,8 @@
     <td align="center"><b>Backend</b></td>
     <td align="center"><b>Deep Learning</b></td>
   </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+  <tr colspan='4'>
+    <td align="center"><a href="[https://github.com/자신의username작성해주세요](https://github.com/2024-AISCHOOL-WEB2A/peeka)" target='_blank'>github</a></td>
   </tr>
 </table>
 
