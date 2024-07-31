@@ -16,12 +16,15 @@
 ### ⛏ 기술 스택
 | 구분          | 내용 |
 |---------------|---------|
-| 사용 언어     | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> |
-| 라이브러리     | <img src="https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=BootStrap&logoColor=white"/> |
+| 기본 사용언어     | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> |
+| Frontend 사용언어     |  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> |
+|  Backend 프레임워크     |  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"/> |
+| 라이브러리     | <img src="https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=BootStrap&logoColor=white"/> <img src="https://img.shields.io/badge/AWS Rekognition-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" > <img src="https://img.shields.io/badge/OpenCV-FF61F6?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Dlib-31A8FF?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Media Pipe-007CE2?style=for-the-badge&logo=java&logoColor=white"/>|
 | 개발 도구     | <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/> |
-| 서버 환경     | <img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/> |
+| 서버 환경     | <img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>  |
 | 데이터베이스   | <img src="https://img.shields.io/badge/Oracle 11g-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/> |
 | 협업 도구     | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/> |
+| 인프라 구조     |  <img src="https://img.shields.io/badge/AWS S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">|
 
 ### ⚙ 시스템 아키텍처
 ![시스템 아키텍처](https://github.com/user-attachments/assets/7170da39-c31b-4a94-8ec6-217e7b054041)
