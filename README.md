@@ -86,21 +86,28 @@
 
 <br>
 
-## ⚙ 시스템 아키텍처(구조) 예시 
-![서비스 아키텍처](https://user-images.githubusercontent.com/25995055/169925538-15867bd9-aa0b-42fc-a39b-88981e926e51.png)
+## ⚙ 시스템 아키텍처
+
+![image](attachment:22743b90-f658-4e4c-a878-4ecafb332f2e.png)
+
 <br>
 
-## 📌 SW유스케이스
-![image](https://user-images.githubusercontent.com/25995055/178401023-9a015e66-aa6e-4d74-8564-9b1f9d306649.png)
+## 📌 SW유스케이스![image](https://github.com/user-attachments/assets/41e451bc-ec1e-4f30-a6fa-6edeec57559f)
+
 <br>
 
-## 📌 서비스 흐름도
-![image](https://user-images.githubusercontent.com/25995055/178401048-d6484bda-a2d7-40e1-998b-2bd195cd9f89.png)
+## 📌 서비스 흐름도![image](https://github.com/user-attachments/assets/e279e867-1c01-4a6c-8f9b-ecdcbeee84e6)
+
 <br>
 
-## 📌 ER다이어그램
-![image](https://user-images.githubusercontent.com/25995055/169925318-102784c2-893f-4fd7-bec9-a54c44b669d4.png)
+## 📌 ER다이어그램![image](https://github.com/user-attachments/assets/a2d76787-0cf9-4a2a-be1b-012bfb09af17)
+
 <br>
+
+## 📌 화면설계![image](https://github.com/user-attachments/assets/1a17a8c2-fa65-4c14-bf12-b34bab86b0a7)
+
+<br>
+
 
 ## 🖥 화면 구성
 
