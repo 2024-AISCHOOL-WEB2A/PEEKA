@@ -97,7 +97,7 @@
 
 <br>
 
-## ⚙ 시스템 아키텍처![image](attachment:22743b90-f658-4e4c-a878-4ecafb332f2e.png)
+## ⚙ 시스템 아키텍처![image](https://github.com/user-attachments/assets/7170da39-c31b-4a94-8ec6-217e7b054041)
 
 <br>
 
@@ -135,15 +135,13 @@
     <td align="center"><strong>오상훈</strong></td>
   </tr>
   <tr>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Deep Learning</b></td>
+    <td align="center"><b>PM/Back</b></td>
+    <td align="center"><b>Back/Front</b></td>
+    <td align="center"><b>Front/Back</b></td>
+    <td align="center"><b>DB/Front</b></td>
+    <td align="center"><b>Back/DB</b></td>
   </tr>
-  <tr colspan='4'>
-    <td align="center"><a href="[https://github.com/자신의username작성해주세요](https://github.com/2024-AISCHOOL-WEB2A/peeka)" target='_blank'>github</a></td>
-  </tr>
+ 
 </table>
 
 ## 🤾‍♂️ 트러블슈팅
