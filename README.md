@@ -1,19 +1,30 @@
-# peeka
+# PEEKA
 
-1.프로젝트명(팀명:______)
+1.프로젝트명PEEKA
+<br>
 2.서비스소개
+<br>
 3.프로젝트기간
+<br>
 4.주요기능
+<br>
 5.기술스택
+<br>
 6.시스템 아키텍처
+<br>
 7.유스케이스
+<br>
 8.서비스 흐름도
+<br>
 9.ER 다이어그램
+<br>
 10.화면구성
+<br>
 11.팀원역할
+<br>
 12.트러블슈팅
 
-# 📎 peeka(팀명: peeka)
+# 📎 PEEKA(팀명: PEEKA)
 ![image](https://github.com/user-attachments/assets/3b97d2e4-0d88-4aa1-a870-a22e41e5b137)
 
 
@@ -57,7 +68,7 @@
     <tr>
         <td>개발도구</td>
         <td>
-            <img src="https://img.shields.io/badge/Figma=Figma&logoColor=Black"/>
+            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"/>
             <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
         </td>
@@ -86,9 +97,7 @@
 
 <br>
 
-## ⚙ 시스템 아키텍처
-
-![image](attachment:22743b90-f658-4e4c-a878-4ecafb332f2e.png)
+## ⚙ 시스템 아키텍처![image](attachment:22743b90-f658-4e4c-a878-4ecafb332f2e.png)
 
 <br>
 
@@ -104,16 +113,10 @@
 
 <br>
 
-## 📌 화면설계![image](https://github.com/user-attachments/assets/1a17a8c2-fa65-4c14-bf12-b34bab86b0a7)
+## 🖥 화면 구성![image](https://github.com/user-attachments/assets/1a17a8c2-fa65-4c14-bf12-b34bab86b0a7)
 
 <br>
 
-
-## 🖥 화면 구성
-
-### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
-![image](https://user-images.githubusercontent.com/25995055/178401098-95f15a0e-a2de-415e-83d5-883bb4cb0656.png)
-<br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
@@ -125,11 +128,11 @@
     <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
+    <td align="center"><strong>신현준</strong></td>
+    <td align="center"><strong>류훈민</strong></td>
+    <td align="center"><strong>정의진</strong></td>
+    <td align="center"><strong>정희원</strong></td>
+    <td align="center"><strong>오상훈</strong></td>
   </tr>
   <tr>
     <td align="center"><b>Frontend</b></td>
