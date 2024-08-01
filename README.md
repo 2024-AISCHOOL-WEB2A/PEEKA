@@ -36,7 +36,8 @@
 ![서비스 흐름도](https://github.com/user-attachments/assets/e279e867-1c01-4a6c-8f9b-ecdcbeee84e6)
 
 ### 📌 ER 다이어그램
-![ER 다이어그램](https://github.com/user-attachments/assets/a2d76787-0cf9-4a2a-be1b-012bfb09af17)
+![ER 다이어그램](https://github.com/user-attachments/assets/578b7c43-0aaf-4871-9bad-94b7827edbc3)
+
 
 ### 🖥 화면 구성
 ![화면 구성](https://github.com/user-attachments/assets/1a17a8c2-fa65-4c14-bf12-b34bab86b0a7)
