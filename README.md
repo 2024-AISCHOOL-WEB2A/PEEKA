@@ -118,10 +118,10 @@ OTP (One-Time Password): 얼굴 인식 후 일회용 비밀번호를 전송하�
 
 ## 2. 개인 ip https에서 flask 사용 불가
 
-해결방안
+## 선택한 해결 방안
 apache서버에서 localhost http를 사용하여 flask 사용
 
-필요한 방안
+## 필요한 방안
 1. nginx  reverse proxy 사용으로 내부 서버 외부 노출 방지 및 ssl 사용등을 통한 보안과 로드 밸런싱 역할 수행
 2. flask에서 인증서 사용으로 https 사용
 
