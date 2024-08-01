@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/2f75a8f8-1aa3-438a-807a-44cfecae67ec)# PEEKA
+# PEEKA
+![image](https://github.com/user-attachments/assets/2f75a8f8-1aa3-438a-807a-44cfecae67ec)
 
 ## 📎 프로젝트: PEEKA
 ![PEEKA](https://github.com/user-attachments/assets/3b97d2e4-0d88-4aa1-a870-a22e41e5b137)
