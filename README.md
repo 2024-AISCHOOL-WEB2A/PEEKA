@@ -1,4 +1,4 @@
-# PEEKA
+![image](https://github.com/user-attachments/assets/2f75a8f8-1aa3-438a-807a-44cfecae67ec)# PEEKA
 
 ## 📎 프로젝트: PEEKA
 ![PEEKA](https://github.com/user-attachments/assets/3b97d2e4-0d88-4aa1-a870-a22e41e5b137)
@@ -59,11 +59,36 @@
     <td align="center"><strong>오상훈</strong></td>
   </tr>
   <tr>
-    <td align="center"><b>PM/Back</b></td>
-    <td align="center"><b>Back/Front</b></td>
-    <td align="center"><b>Front/Back</b></td>
-    <td align="center"><b>DB/Front</b></td>
-    <td align="center"><b>Back/DB</b></td>
+    <td align="center"><b>PM/Back</b>
+      <br>계정관리,로그인 기능구현
+<br>메인페이지,근태관리,게시판 페이지 연동
+<br>출퇴근 로그 기록 구현
+<br>근태관리 기능 구현
+<br>캘린더 기능 구현
+<br>결제신청 기능 구현
+</td>
+    <td align="center"><b>Back/Front</b>
+    <br>얼굴인증 프로세스<br>제스처게임 프로세스<br>결제승인 기능구현<br>계정 수정 기능구현</td>
+    <td align="center"><b>Front/Back</b>
+    <br>Figma를 이용한 디자인
+<br>스타일 가이드
+<br>UI 컴포넌트 디자인
+<br>프로토타입 제작
+<br>디자인 핸드오프
+<br>Html Css 코드 전환
+<br>화면설계서 제작
+</td>
+    <td align="center"><b>DB/Front</b>
+    <br>테이블 데이터 수집
+     <br>테이블 제약조건 및 트리거 조정
+      <br>자료 조사 및 관리
+    </td>
+    <td align="center"><b>Back/DB</b>
+    <br>계정관리 삭제, 수정 기능 구현
+      <br>사내구성원, 메시지 전송 페이지 기능 구현
+      <br>로그아웃 기능 구현
+      <br>E-R 다이어그램 작성
+    </td>
   </tr>
 </table>
 
