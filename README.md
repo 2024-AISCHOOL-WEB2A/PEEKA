@@ -41,7 +41,9 @@
 ![화면 구성](https://github.com/user-attachments/assets/1a17a8c2-fa65-4c14-bf12-b34bab86b0a7)
 
 ### 👨‍👩‍👦‍👦 팀원 역할
-<table>
+![image](https://github.com/user-attachments/assets/cd3dbe52-f472-4d0e-b83e-0f3c9117bb5b)
+
+<!--<table>
   <tr>
     <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
     <td align="center"><img src="https://mb.ntdtv.kr/assets/uploads/2019/01/Screen-Shot-2019-01-08-at-4.31.55-PM-e1546932545978.png" width="100" height="100"/></td>
@@ -88,7 +90,7 @@
       <br>E-R 다이어그램 작성
     </td>
   </tr>
-</table>
+</table>-->
 
 ### 🤾‍♂️ 트러블슈팅
 
